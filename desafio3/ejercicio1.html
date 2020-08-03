@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            box-sizing: border-box;
+            border: 1px solid red;
+            background-color: white;
+            height: 1080px;
+            margin: 5px;
+            text-align: center;
+
+        }
+
+        .bandera_españa {
+            box-sizing: border-box;
+            border: 1px solid black;
+            display: inline-block;
+            width: 35%;
+            background-color: red;
+            height: 450px;
+            z-index: -1;
+            margin: 30px;
+        }
+
+        .raya1_es {
+            width: 100%;
+            height: 30%;
+            background-color: yellow;
+            box-sizing: border-box;
+            position: relative;
+            top: 30%;
+            z-index: 0;
+        }
+
+        .bandera_denmark {
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 35%;
+            background-color: red;
+            height: 450px;
+            display: inline-block;
+            margin: 30px;
+            z-index: -1;
+        }
+
+        .raya1_d {
+            width: 10%;
+            height: 100%;
+            background-color: white;
+            box-sizing: border-box;
+            position: relative;
+            left: 25%;
+            z-index: 0;
+        }
+
+        .raya2_d {
+            width: 100%;
+            height: 10%;
+            background-color: white;
+            box-sizing: border-box;
+            position: relative;
+            bottom: 60%;
+            z-index: 1;
+        }
+
+        .bandera_emiratos {
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 35%;
+            background-color: white;
+            height: 450px;
+            display: inline-block;
+            margin: 30px;
+            z-index: -1;
+        }
+
+        .raya1_em {
+            width: 30%;
+            height: 100%;
+            background-color: red;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 1;
+        }
+        .raya2_em {
+            width: 100%;
+            height: 32%;
+            background-color: green;
+            box-sizing: border-box;
+            position: relative;
+            bottom: 100%;
+            z-index: 0;
+        }
+        .raya3_em {
+            width: 100%;
+            height: 32%;
+            background-color: black;
+            box-sizing: border-box;
+            position: relative;
+            bottom: 64%;
+            z-index: 0;
+        }
+
+        .bandera_japon {
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 35%;
+            background-color: white;
+            height: 450px;
+            display: inline-block;
+            margin: 30px;
+            z-index: -1;
+        }
+
+        .circulo {
+            width: 20%;
+            height: 30%;
+            background-color: red;
+            box-sizing: border-box;
+            position: relative;
+            top:35%;
+            left:40%;
+            z-index: 1;
+            border-radius: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="main">
+        <section class="bandera_españa">
+            <div class="raya1_es"></div>
+        </section>
+        <section class="bandera_denmark">
+            <div class="raya1_d"></div>
+            <div class="raya2_d"></div>
+        </section>
+        <section class="bandera_emiratos">
+            <div class="raya1_em"></div>
+            <div class="raya2_em"></div>
+            <div class="raya3_em"></div>
+        </section>
+        <section class="bandera_japon">
+            <div class="circulo"></div>
+        </section>
+    </section>
+</body>
+
+</html>
